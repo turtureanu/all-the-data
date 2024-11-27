@@ -1,0 +1,8 @@
+body, html, #app {
+    height: 100% !important;
+}
+
+#app {
+    background-color: #111;
+    color: hsl(140, 80%, 60%);
+}
