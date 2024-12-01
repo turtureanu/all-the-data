@@ -4,7 +4,7 @@ import "toastify-js/src/toastify.css";
 export default function CopyButton({ item }: { item: string }) {
   return (
     <button
-      class="text-white py-1 px-2 rounded-sm text-left hover:bg-green-800"
+      class="text-white py-1 px-2 rounded-sm text-left hover:bg-green-800 break-all"
       onClick={() => {
         navigator.clipboard
           .writeText(item)
